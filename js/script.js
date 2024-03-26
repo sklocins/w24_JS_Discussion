@@ -33,7 +33,7 @@ element.addEventListener('click')
 // There is another event which fires for every character. This is what we want to use.
 document.querySelector("#confirm_password").addEventListener("change", function() {
     document.querySelector('#password-alert').innerHTML = "Password does not match"
-}
+});
 
 
 //Question 6
